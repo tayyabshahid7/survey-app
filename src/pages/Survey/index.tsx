@@ -65,17 +65,16 @@ const Survey = () => {
             });
     };
 
-    // useEffect(() => {
-    //     if (!isDataApiCalled) {
-    //         setIsDataApiCalled(true);
-    //         let obj = {
-    //             offset: 0,
-    //             limit: 5,
-    //         };
-    //         getSurveys(obj);
-    //     }
-    // }, [isDataApiCalled]);
-
+    useEffect(() => {
+        if (!isDataApiCalled) {
+            setIsDataApiCalled(true);
+            let obj = {
+                offset: 0,
+                limit: 5,
+            };
+            getSurveys(obj);
+        }
+    }, [isDataApiCalled]);
 
 
     const reloadData = (pageNumber: number) => {

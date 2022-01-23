@@ -3,7 +3,7 @@ import { Router } from 'react-router-dom';
 import PublicRoute from "./PublicRoute";
 import history from "../utils/history";
 import Survey from "../pages/Survey";
-// import SurveyDetail from "../pages/SurveyDetail";
+import SurveyDetail from "../pages/SurveyDetail";
 
 const Route = () => {
 
@@ -11,7 +11,7 @@ const Route = () => {
     <Router history={history}>
         <PublicRoute component={Survey} path="/" exact />
         {/*<PublicRoute component={Survey} path="/" exact />*/}
-        {/*<PublicRoute component={SurveyDetail} path="/survey-detail/:id" exact />*/}
+        <PublicRoute component={SurveyDetail} path="/survey-detail/:id" exact />
     </Router>
   );
 };
