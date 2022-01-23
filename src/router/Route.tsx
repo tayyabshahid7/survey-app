@@ -10,7 +10,7 @@ const Route = () => {
   return (
     <Router history={history}>
         <PublicRoute component={Survey} path="/survey" exact />
-        <PublicRoute component={Survey} path="/" exact />
+        {/*<PublicRoute component={Survey} path="/" exact />*/}
         <PublicRoute component={SurveyDetail} path="/survey-detail/:id" exact />
     </Router>
   );
