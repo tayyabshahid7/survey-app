@@ -1,6 +1,6 @@
 import axios, { AxiosRequestConfig } from "axios";
 
-const BASE_URL: string = process.env.REACT_APP_BASE_URL || "";
+const BASE_URL: string = "https://survey-backend-application.herokuapp.com/";
 export const axiosObj = axios.create();
 
 export const makeRequest = (

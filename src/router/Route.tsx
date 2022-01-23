@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Router } from 'react-router-dom';
 import PublicRoute from "./PublicRoute";
 import history from "../utils/history";
@@ -9,8 +9,7 @@ const Route = () => {
 
   return (
     <Router history={history}>
-        <PublicRoute component={Survey} path="/" exact />
-        {/*<PublicRoute component={Survey} path="/" exact />*/}
+        <PublicRoute component={Survey} path="/survey" exact />
         <PublicRoute component={SurveyDetail} path="/survey-detail/:id" exact />
     </Router>
   );
