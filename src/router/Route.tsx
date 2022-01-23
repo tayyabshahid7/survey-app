@@ -7,6 +7,13 @@ import SurveyDetail from "../pages/SurveyDetail";
 
 const Route = () => {
 
+    useEffect(()=>{
+        // @ts-ignore
+        if(window.location.pathname === "/"){
+            history.push("/survey");
+        }
+    });
+
   return (
     <Router history={history}>
         <PublicRoute component={Survey} path="/survey" exact />
