@@ -112,23 +112,23 @@ const Survey = () => {
             </Typography>
 
             <Box className={"table"}>
-                <DataTable
-                    pagination
-                    progressPending={isLoading}
-                    theme={"dark"}
-                    fixedHeader={true}
-                    columns={surveyColumns}
-                    data={surveyList}
-                    selectableRows={false}
-                    paginationServer={true}
-                    onChangePage={changePage}
-                    paginationTotalRows={totalRows}
-                    responsive={true}
-                    paginationPerPage={5}
-                    onChangeRowsPerPage={changeRowsPerPage}
-                    paginationComponentOptions={{ noRowsPerPage: false }}
-                    paginationRowsPerPageOptions={[5, 10, 15, 20]}
-                />
+                {/*<DataTable*/}
+                {/*    pagination*/}
+                {/*    progressPending={isLoading}*/}
+                {/*    theme={"dark"}*/}
+                {/*    fixedHeader={true}*/}
+                {/*    columns={surveyColumns}*/}
+                {/*    data={surveyList}*/}
+                {/*    selectableRows={false}*/}
+                {/*    paginationServer={true}*/}
+                {/*    onChangePage={changePage}*/}
+                {/*    paginationTotalRows={totalRows}*/}
+                {/*    responsive={true}*/}
+                {/*    paginationPerPage={5}*/}
+                {/*    onChangeRowsPerPage={changeRowsPerPage}*/}
+                {/*    paginationComponentOptions={{ noRowsPerPage: false }}*/}
+                {/*    paginationRowsPerPageOptions={[5, 10, 15, 20]}*/}
+                {/*/>*/}
             </Box>
         </div>
     )

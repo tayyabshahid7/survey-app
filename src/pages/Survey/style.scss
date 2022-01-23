@@ -1,24 +1,24 @@
-//.tableButtons{
-//  button{
-//    background: #ffffff;
-//    color: #000000;
-//    padding: 2px 8px;
-//    &:hover{
-//      background: #d0c6c6;
-//    }
-//  }
-//}
-//.survey{
-//  max-width: 75%;
-//  margin: auto;
-//  height: 100vh;
-//  margin-top: 12% ;
-//  .title{
-//    font-size: 23px;
-//    font-weight: 600;
-//    text-align: center;
-//  }
-//  .table{
-//    margin-top: 5% ;
-//  }
-//}
+.tableButtons{
+  button{
+    background: #ffffff;
+    color: #000000;
+    padding: 2px 8px;
+    &:hover{
+      background: #d0c6c6;
+    }
+  }
+}
+.survey{
+  max-width: 75%;
+  margin: auto;
+  height: 100vh;
+  margin-top: 12% ;
+  .title{
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .table{
+    margin-top: 5% ;
+  }
+}
